@@ -1,0 +1,3 @@
+[submodule "secundx"]
+	path = secundx
+	url = https://github.com/dudumendes/secundx.git
