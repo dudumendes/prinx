@@ -1,0 +1,3 @@
+# Git Submodule Integration Guide
+
+Git submodules allow you to keep a Git repository as a subdirectory of another Git repository. This is useful when you want to include external libraries or dependencies while maintaining separate version control. Each submodule points to a specific commit in its remote repository, enabling you to lock dependencies to known working versions. When cloning a repository with submodules, you need to use `git clone --recurse-submodules` to automatically initialize and update all nested submodules, or manually run `git submodule update --init --recursive` after cloning.
